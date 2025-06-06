@@ -23,17 +23,8 @@ Cada tarefa ou feature deve ser desenvolvida em uma branch separada com o seguin
 Este modelo ajudará na abertura de PRs, onde o companheiro irá analisar o código e aprovar ou não, com comentários.
 
 ### 2. **Estrutura do Repositório**
-O repositório deve ser organizado de forma clara e funcional. A estrutura sugerida é a seguinte:
+O repositório deve ser organizado de forma clara e funcional. 
 
-/root
-/ge-frontend
-/nome1-nome2
-/todo-app
-/ecommerce
-README.md
-
-
-- A pasta `ge-frontend` deve conter todas as branches de trabalho dos membros, sendo cada subpasta a feature ou tarefa desenvolvida por um membro.
 - Dentro de cada subpasta, a estrutura do código deve ser mantida conforme a organização de cada aplicação (To-Do App ou E-commerce).
   - **To-Do App:** 
     - A estrutura do To-Do App deve estar dentro da pasta `todo-app`.
@@ -42,6 +33,7 @@ README.md
 
 ### 3. **Padrões de Commit**
 - Sempre use mensagens de commit **descritivas** e **clara** sobre o que foi alterado ou implementado.
+- Sugestão: [conventional commits](https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/)
   
 **Exemplo de boas mensagens de commit:**
 - `feat: adiciona funcionalidade de adicionar tarefas no To-Do App`
@@ -50,37 +42,6 @@ README.md
 **Exemplo de mensagens de commit inadequadas:**
 - `Atualização`
 - `Corrigido`
-
-### 4. **Documentação**
-A documentação do projeto, como instruções de configuração e execução, deve ser mantida no arquivo `README.md` na raiz do repositório. O arquivo `README.md` de cada aplicação também pode conter informações específicas sobre como rodar e testar o app individualmente.
-
----
-
-## 🛠 **Tecnologias e Ferramentas**
-
-Este desafio visa praticar os seguintes conceitos e ferramentas:
-
-- **React**: para desenvolvimento das interfaces.
-- **React Router**: para gerenciamento de rotas.
-- **Axios**: para realizar requisições HTTP à API (para o To-Do App e E-commerce).
-- **Context API/Redux**: para gerenciamento de estado no React.
-- **CSS/Styled Components/Tailwind CSS**: para estilização das interfaces.
-- **Responsividade**: Certifique-se de que o design seja responsivo para telas de diferentes tamanhos.
-  
----
-
-## 💡 **Requisitos de Testes**
-
-- **To-Do App**:
-  - Testar funcionalidades básicas como adicionar, editar, excluir e marcar tarefas como concluídas.
-  - Testar a persistência dos dados (utilizando armazenamento local ou uma API simples).
-
-- **E-commerce**:
-  - Testar funcionalidades como adição de produtos ao carrinho, remoção de produtos, atualização de quantidade e finalização de pedido.
-  - Testar integração com a API do backend (se necessário).
-  - Testar o controle de estoque para garantir que o produto não possa ser comprado se não houver estoque suficiente.
-
----
 
 ## 📝 **Conclusão**
 Este desafio tem como objetivo consolidar os conhecimentos adquiridos até agora e proporcionar uma experiência de desenvolvimento prático de aplicações reais. Ao seguir as diretrizes acima, garantimos um fluxo de trabalho organizado e eficiente, além de facilitar a colaboração entre os membros do grupo.
